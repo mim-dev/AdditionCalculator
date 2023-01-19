@@ -13,7 +13,11 @@ public class Adder {
         
     }
     
-    public func addIntOperands(operandOne: Int, operandTwo: Int) -> Int {
+    public func addIntegerOperands(operandOne: Int, operandTwo: Int) -> Int {
         return operandTwo + operandOne
+    }
+    
+    public func addDoubleOperands(operandOne: Double, operandTwo: Double) -> Double {
+        return operandOne + operandTwo
     }
 }
